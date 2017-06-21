@@ -15,17 +15,7 @@ public class CreditHolder extends Actor {
 		super();
 	}
 
-
 	// Attributes -------------------------------------------------------------
-	private Double	cumulatedFee;
-
-
-	public Double getCumulatedFee() {
-		return this.cumulatedFee;
-	}
-	public void setCumulatedFee(final Double cumulatedFee) {
-		this.cumulatedFee = cumulatedFee;
-	}
 
 	// Relationships ----------------------------------------------------------
 

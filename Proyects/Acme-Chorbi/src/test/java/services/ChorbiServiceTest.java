@@ -169,7 +169,6 @@ public class ChorbiServiceTest extends AbstractTest {
 			c.setState(state);
 			c.setProvince(province);
 			c.setCity(city);
-			c.setCumulatedFee(cumulatedFee);
 			this.chorbiService.save(c);
 			this.chorbiService.flush();
 		} catch (final Throwable oops) {
